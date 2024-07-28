@@ -1,0 +1,162 @@
+(footprint "SMA_L4.4-W2.8-LS5.4-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMA_L4.4-W2.8-LS5.4-RD footprint")
+	(tags "SMA_L4.4-W2.8-LS5.4-RD footprint C432296")
+	(property "Reference" "REF**"
+		(at 0.000025 -3.363678 0)
+		(layer "F.SilkS")
+		(uuid "11dc15d4-c02f-4aec-812f-d515c79e1086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA_L4.4-W2.8-LS5.4-RD"
+		(at 0.000025 3.363729 0)
+		(layer "F.Fab")
+		(uuid "2ea7326d-ea49-4a04-86f6-55e600989030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMA_L4.4-W2.8-LS5.4-RD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d67c6f0-c7dc-4d27-a492-586242bba805")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a3434cd-6d41-46bf-bb8f-9f954f474536")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69471db9-1ce3-4810-bdf8-2d1e10bfa9ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.701143 -1.363678)
+		(end 2.701194 -1.363678)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19ef8111-40eb-4943-ad90-6ba516757b75")
+	)
+	(fp_line
+		(start -2.701143 1.363729)
+		(end 2.701194 1.363729)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c839bec8-2368-45d0-9d2d-184788f4d972")
+	)
+	(fp_line
+		(start -1.338938 -1.363678)
+		(end -1.338938 1.363729)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "caf86ac7-b87f-49f5-b2f8-24894388d4f3")
+	)
+	(fp_line
+		(start 2.701194 -1.363678)
+		(end 2.701194 -1.013183)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8c15295-775b-4f88-a805-475943851a2a")
+	)
+	(fp_line
+		(start 2.701194 1.363729)
+		(end 2.701194 1.013233)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ed59483-e7b1-44e6-9ee4-84e115c16af4")
+	)
+	(fp_circle
+		(center -2.800102 1.374905)
+		(end -2.77013 1.374905)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e55bfb19-062e-43a6-9b33-4fe3b676511a")
+	)
+	(fp_text user "REF**"
+		(at 0.000025 5.363729 0)
+		(layer "F.Fab")
+		(uuid "336170f5-c26e-46dd-908e-a641e37cbb3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.565405 0)
+		(size 2.04638 1.620015)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5c6b0ea4-8140-4ffb-97e3-8353512c46bf")
+	)
+	(pad "2" smd rect
+		(at 2.565405 0)
+		(size 2.04638 1.620015)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6aeb7a91-c69f-4ab3-97ab-d6b4c92c6e88")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Active.pretty/3dmodels/SMA_L4.4-W2.8-LS5.4-RD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
