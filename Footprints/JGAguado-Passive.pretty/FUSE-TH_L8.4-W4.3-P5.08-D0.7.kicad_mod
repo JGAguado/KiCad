@@ -1,0 +1,156 @@
+(footprint "FUSE-TH_L8.4-W4.3-P5.08-D0.7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FUSE-TH_L8.4-W4.3-P5.08-D0.7 footprint")
+	(tags "FUSE-TH_L8.4-W4.3-P5.08-D0.7 footprint C340909")
+	(property "Reference" "REF**"
+		(at 0 -4.250038 0)
+		(layer "F.SilkS")
+		(uuid "18f1e6be-a80e-4572-9389-c6ee4ed8809a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE-TH_L8.4-W4.3-P5.08-D0.7"
+		(at 0 4.250038 0)
+		(layer "F.Fab")
+		(uuid "5565bdb3-fd22-44ba-bbb7-5e11a5e67f7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "FUSE-TH_L8.4-W4.3-P5.08-D0.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "131db18b-e49c-4310-9f37-0faf6c0507fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c80a2cca-a4d0-4aa7-ac40-830219612583")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b58d100d-530a-4025-b443-c0a6c25ffb0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.2 -2.250038)
+		(end 4.2 -2.250013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf728a53-a921-4fa3-a1ad-f298afb58b3c")
+	)
+	(fp_line
+		(start -4.2 2.250038)
+		(end -4.2 -2.250013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2aa88fd8-f467-4ac5-b2c3-3226226f3fcf")
+	)
+	(fp_line
+		(start 4.2 -2.250038)
+		(end 4.2 2.250013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75350b5e-acd9-4216-95a0-1b69c3755c96")
+	)
+	(fp_line
+		(start 4.2 2.250038)
+		(end -4.2 2.250013)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de70f79a-389d-4ee9-abfe-76139bd87c74")
+	)
+	(fp_circle
+		(center -4.326899 2.376937)
+		(end -4.296927 2.376937)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5a7b6069-3062-4353-bcce-3c027b207231")
+	)
+	(fp_text user "REF**"
+		(at 0 6.250038 0)
+		(layer "F.Fab")
+		(uuid "7fc30847-e7aa-4ab1-9e0c-35a83b0e4f45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.540005 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "004ae15f-f3aa-427f-9abc-e7fd5edeb125")
+	)
+	(pad "2" thru_hole circle
+		(at 2.540005 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b7d7664-ed32-4201-8d66-e21d6f945c96")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Passive.pretty/3dmodels/FUSE-TH_L8.4-W4.3-P5.08-D0.7.step"
+		(offset
+			(xyz 0 0 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
