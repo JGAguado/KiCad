@@ -1,0 +1,244 @@
+(footprint "LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED-SMD_4P-L6.8-W2.4_VEML7700-TR footprint")
+	(tags "LED-SMD_4P-L6.8-W2.4_VEML7700-TR footprint C504893")
+	(property "Reference" "REF**"
+		(at 0 -3.849987 0)
+		(layer "F.SilkS")
+		(uuid "4382e95b-7565-404d-b1bb-02b3e27aaf1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "81a65402-e6c0-4a82-9468-af979f4e7745")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9be649cf-6276-41ed-a2df-132169f100d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "539f5812-2516-4cb6-8275-c7e4dd466875")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a74f0354-b921-440c-8ff0-8bfbd06d415e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -1.849987)
+		(end -3.389992 -1.849987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2af9343-47dd-4324-917a-1af4c2d66008")
+	)
+	(fp_line
+		(start -3.4 -1.849987)
+		(end 3.4 -1.849987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a041fac4-eecf-4109-8626-430fe4c30a97")
+	)
+	(fp_line
+		(start -3.4 0.5)
+		(end -3.4 -1.849987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61bf4735-c0e3-46ca-aaae-3d9986b25c05")
+	)
+	(fp_line
+		(start -3.389992 -1.849987)
+		(end -2.859995 -1.31999)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "300869ba-5243-4a9d-b259-65bb316a3c0f")
+	)
+	(fp_line
+		(start -2.859995 -1.31999)
+		(end 2.870003 -1.31999)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37f36d43-60f4-40c2-8a3c-9b383a1a4d0e")
+	)
+	(fp_line
+		(start -2.53617 0.5)
+		(end -3.4 0.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e691f7c-7e63-4a34-a0ba-06bba868b773")
+	)
+	(fp_line
+		(start -1.266167 0.5)
+		(end -1.273889 0.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e7de1ac-855b-4e8d-a95a-e665982b26fb")
+	)
+	(fp_line
+		(start 0.003835 0.5)
+		(end -0.003886 0.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "644e4478-6093-49d9-8e69-88a6198d51ba")
+	)
+	(fp_line
+		(start 1.273838 0.5)
+		(end 1.266116 0.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef4f6687-1e2a-423d-aa99-752a5f1bb423")
+	)
+	(fp_line
+		(start 2.870003 -1.31999)
+		(end 3.4 -1.849987)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "363686c3-449c-4c41-831b-510cb96b8f43")
+	)
+	(fp_line
+		(start 3.4 -1.849987)
+		(end 3.4 0.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8ec12b1-2c8d-4701-a0cd-fcfd31285bcf")
+	)
+	(fp_line
+		(start 3.4 0.5)
+		(end 2.536119 0.5)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c382f530-f156-49e7-b192-8a0fdb12b2b9")
+	)
+	(fp_circle
+		(center -3.399975 0.5)
+		(end -3.369977 0.5)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c728572a-f1a9-4fbf-b090-9c7108deb6e4")
+	)
+	(fp_text user "REF**"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "71130320-455c-4b77-97b8-bbaf1213dcb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.905004 0)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e99443ce-6744-4c38-886b-489f0259df99")
+	)
+	(pad "2" smd rect
+		(at 0.635001 0)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ffd6de3-6aa6-49ea-b8ec-8f519de84c19")
+	)
+	(pad "3" smd rect
+		(at -0.635001 0)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "240b0ae2-df3c-4210-a4a4-95471ce0fa7e")
+	)
+	(pad "4" smd rect
+		(at -1.905004 0)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c2f267a-a90a-4a33-93b3-98ba3a175050")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Sensors.pretty/3dmodels/LED-SMD_4P-L6.8-W2.4_VEML7700-TR.step"
+		(offset
+			(xyz 0 0.669011 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

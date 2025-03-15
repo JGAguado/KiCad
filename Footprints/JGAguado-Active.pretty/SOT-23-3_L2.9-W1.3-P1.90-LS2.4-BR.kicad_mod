@@ -1,29 +1,179 @@
-(module "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (layer F.Cu) (tedit 6686B97D)
-  (descr "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint")
-  (tags "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint C8512")
-  (attr smd)
-  (fp_text reference REF** (at 0 -3.526213) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR (at 0 3.526213) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 1.2 1.450013) (end 1.229997 1.450013) (layer F.SilkS) (width 0.059995))
-  (fp_circle (center 1.459995 1.100076) (end 1.560071 1.100076) (layer F.Fab) (width 0.2))
-  (fp_line (start 0.726213 -1.526213) (end -0.726213 -1.526213) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.726213 -1.526213) (end -0.726213 -0.49459) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.726213 1.526213) (end -0.726213 1.526213) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -0.726213 1.526213) (end -0.726213 0.49459) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.726213 -0.455398) (end 0.726213 0.455398) (layer F.SilkS) (width 0.1524))
-  (pad 1 smd rect (at 1 0.949962) (size 1.250013 0.7) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at 1 -0.949962) (size 1.250013 0.7) (layers F.Cu F.Mask F.Paste))
-  (pad 3 smd rect (at -1 0) (size 1.250013 0.7) (layers F.Cu F.Mask F.Paste))
-  (fp_text user REF** (at 0 5.526213) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model C:\Users\Jon\Andromeda\Proyectos\Repositorios\KiCad/Footprints\JGAguado-Active.pretty/3dmodels/SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR.step
-    (at (xyz -33.92 33.2 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
-  )
+(footprint "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint")
+	(tags "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint C8512")
+	(property "Reference" "REF**"
+		(at 0 -3.526213 0)
+		(layer "F.SilkS")
+		(uuid "7169a2e6-ca7a-4c80-864d-55cb97c79c84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+		(at 0 3.526213 0)
+		(layer "F.Fab")
+		(uuid "b67018e5-62f2-4eb7-9b11-e82e7979391f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce9a9bcf-670a-4941-bed5-9fe79118132d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78b86766-6ca6-45de-9e02-ba4ae8763f3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7df0f5e8-557b-4f1d-9c12-9983c609c516")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.726213 -1.526213)
+		(end -0.726213 -0.49459)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc8a5b7d-6b4c-41a4-8727-27f23d4b5f0f")
+	)
+	(fp_line
+		(start -0.726213 1.526213)
+		(end -0.726213 0.49459)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12faaa5a-a573-4ffa-bfc5-cfbbd2a73304")
+	)
+	(fp_line
+		(start 0.726213 -1.526213)
+		(end -0.726213 -1.526213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f9a332c-5f12-4f83-b6d9-32ec7f5e8158")
+	)
+	(fp_line
+		(start 0.726213 -0.455398)
+		(end 0.726213 0.455398)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00a2295c-a87d-48bd-aaf9-fa881f812067")
+	)
+	(fp_line
+		(start 0.726213 1.526213)
+		(end -0.726213 1.526213)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1ae0cc0-c01a-48b2-963e-621ae51ec345")
+	)
+	(fp_circle
+		(center 1.2 1.450013)
+		(end 1.229997 1.450013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "20b77d02-4efc-42fc-a532-998429c90397")
+	)
+	(fp_circle
+		(center 1.459995 1.100076)
+		(end 1.560071 1.100076)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "57829818-4706-4c31-9c4b-caa42bd32018")
+	)
+	(fp_text user "REF**"
+		(at 0 5.526213 0)
+		(layer "F.Fab")
+		(uuid "4708ddf3-ff8c-4f35-ab99-a2979b183dd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1 0.949962)
+		(size 1.250013 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85b1298c-4207-4bf9-a78d-24ad369476e0")
+	)
+	(pad "2" smd rect
+		(at 1 -0.949962)
+		(size 1.250013 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e2004c6-2f70-4e1c-97ed-a1aa510855fb")
+	)
+	(pad "3" smd rect
+		(at -1 0)
+		(size 1.250013 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19f03dd3-a177-41cc-ab5f-86a7a18449c7")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Active.pretty/3dmodels/SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )

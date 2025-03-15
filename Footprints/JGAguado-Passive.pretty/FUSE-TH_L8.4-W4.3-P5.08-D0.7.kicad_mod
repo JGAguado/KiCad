@@ -68,7 +68,7 @@
 		(start -4.2 -2.250038)
 		(end 4.2 -2.250013)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -78,7 +78,7 @@
 		(start -4.2 2.250038)
 		(end -4.2 -2.250013)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +88,7 @@
 		(start 4.2 -2.250038)
 		(end 4.2 2.250013)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -98,7 +98,7 @@
 		(start 4.2 2.250038)
 		(end -4.2 2.250013)
 		(stroke
-			(width 0.254001)
+			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -142,7 +142,7 @@
 		(remove_unused_layers no)
 		(uuid "1b7d7664-ed32-4201-8d66-e21d6f945c96")
 	)
-	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Passive.pretty/3dmodels/FUSE-TH_L8.4-W4.3-P5.08-D0.7.step"
+	(model "${JON_FOOTPRINT_DIR}/JGAguado-Passive.pretty/3dmodels/FUSE-TH_L8.4-W4.3-P5.08-D0.7.igs"
 		(offset
 			(xyz 0 0 7.5)
 		)

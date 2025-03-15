@@ -1,27 +1,162 @@
-(module "SMA_L4.2-W2.6-LS5.3-RD" (layer F.Cu) (tedit 6686B961)
-  (descr "SMA_L4.2-W2.6-LS5.3-RD footprint")
-  (tags "SMA_L4.2-W2.6-LS5.3-RD footprint C2480")
-  (attr smd)
-  (fp_text reference REF** (at -0.000025 -3.363729) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value SMA_L4.2-W2.6-LS5.3-RD (at -0.000025 3.363678) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center -2.627991 1.299975) (end -2.597993 1.299975) (layer F.SilkS) (width 0.059995))
-  (fp_line (start -2.701194 -1.363729) (end 2.701143 -1.363729) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -2.701194 1.363678) (end 2.701143 1.363678) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -1.338989 -1.363729) (end -1.338989 1.363678) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 2.701143 -1.363729) (end 2.701143 -1.013233) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 2.701143 1.363678) (end 2.701143 1.013183) (layer F.SilkS) (width 0.1524))
-  (pad 1 smd rect (at -2.565405 0) (size 2.2 1.7) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at 2.565405 0) (size 2.2 1.7) (layers F.Cu F.Mask F.Paste))
-  (fp_text user REF** (at -0.000025 5.363678) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model C:\Users\Jon\Andromeda\Proyectos\Repositorios\KiCad/Footprints\JGAguado-Active.pretty/3dmodels/SMA_L4.2-W2.6-LS5.3-RD.step
-    (at (xyz -0.000001 0.000001 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SMA_L4.2-W2.6-LS5.3-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMA_L4.2-W2.6-LS5.3-RD footprint")
+	(tags "SMA_L4.2-W2.6-LS5.3-RD footprint C2480")
+	(property "Reference" "REF**"
+		(at -0.000025 -3.363729 0)
+		(layer "F.SilkS")
+		(uuid "b0e42e57-f92f-451a-8322-78c4b62dd061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA_L4.2-W2.6-LS5.3-RD"
+		(at -0.000025 3.363678 0)
+		(layer "F.Fab")
+		(uuid "a9ae4f71-0831-4c4d-b5b9-4db095b9a9b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMA_L4.2-W2.6-LS5.3-RD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb38092-f2b2-40f8-a34f-db03e5586d1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3902a2eb-98db-42f6-a299-dccbde2ca853")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44213c3f-6973-4a6d-b59b-610d90e722b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.701194 -1.363729)
+		(end 2.701143 -1.363729)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fa1431d-b1b0-4c5c-b757-555c3267398e")
+	)
+	(fp_line
+		(start -2.701194 1.363678)
+		(end 2.701143 1.363678)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "008c6745-a29f-4413-a92d-700d625a7726")
+	)
+	(fp_line
+		(start -1.338989 -1.363729)
+		(end -1.338989 1.363678)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "925f9103-b703-4567-9e96-4429f13429e0")
+	)
+	(fp_line
+		(start 2.701143 -1.363729)
+		(end 2.701143 -1.013233)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e59608a2-0d25-4862-af46-37cb35a031a5")
+	)
+	(fp_line
+		(start 2.701143 1.363678)
+		(end 2.701143 1.013183)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8f1542f-6d35-44aa-9866-a4f768044103")
+	)
+	(fp_circle
+		(center -2.627991 1.299975)
+		(end -2.597993 1.299975)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8e51cd77-2415-4621-b65d-7ecea0b34376")
+	)
+	(fp_text user "REF**"
+		(at -0.000025 5.363678 0)
+		(layer "F.Fab")
+		(uuid "e80f237d-0af8-4bf4-8552-d323ed43f159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.565405 0)
+		(size 2.2 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a729ee7-1efa-416c-a934-a928e43bff9a")
+	)
+	(pad "2" smd rect
+		(at 2.565405 0)
+		(size 2.2 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8deeae48-2110-428a-923e-4499c2708e1b")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Active.pretty/3dmodels/SMA_L4.2-W2.6-LS5.3-RD.step"
+		(offset
+			(xyz -0.000025 0.000025 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

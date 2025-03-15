@@ -1,0 +1,207 @@
+(footprint "USB-SMD_GT-USB-7040B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB-SMD_GT-USB-7040B footprint")
+	(tags "USB-SMD_GT-USB-7040B footprint C5446866")
+	(property "Reference" "REF**"
+		(at 0 -4.900051 0)
+		(layer "F.SilkS")
+		(uuid "08ec3c36-ac7b-4180-86f7-d28ce985bae8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-SMD_GT-USB-7040B"
+		(at 0 7.55395 0)
+		(layer "F.Fab")
+		(uuid "4a414769-8ded-4d81-b3f7-ad6658699fb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "USB-SMD_GT-USB-7040B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa199304-42c7-4569-baf4-1907cdf2f47a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcd96440-41cf-4bbc-8e8d-34cc2d7e12b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0823a5c1-eafa-4caf-a57c-374f705d2265")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.999924 -2.350038)
+		(end -3.381077 -2.350038)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b4cc2c9-a0ce-4cb7-8567-3d054866fdb7")
+	)
+	(fp_line
+		(start -4.999924 5.499975)
+		(end -4.999924 -2.350038)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4f5a366-fa06-48a2-9c51-07fc509f2760")
+	)
+	(fp_line
+		(start 3.381204 -2.350038)
+		(end 5.000076 -2.350038)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a526fee0-b680-4109-8c28-8902e322f4e9")
+	)
+	(fp_line
+		(start 5.000076 -2.350038)
+		(end 5.000076 5.499975)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bea5676d-c213-4b2b-96c0-c454c26cb077")
+	)
+	(fp_line
+		(start 5.000076 5.499975)
+		(end -4.999924 5.499975)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d8f95f0-c22b-430d-9b0f-1c89290c5fbc")
+	)
+	(fp_text user "REF**"
+		(at 0 9.55395 0)
+		(layer "F.Fab")
+		(uuid "2d89dc8d-84d9-46a9-a18f-8d848a019760")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -5.799975 -0.099949)
+		(size 0.8 1.6)
+		(drill oval 0.500025 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c29d9e67-9926-4574-af32-e27081e6b719")
+	)
+	(pad "2" thru_hole oval
+		(at 5.799975 -0.099949)
+		(size 0.8 1.6)
+		(drill oval 0.500025 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca014355-be40-468a-8700-9e161a16ed02")
+	)
+	(pad "3" thru_hole oval
+		(at -5.799975 2.900051)
+		(size 0.8 1.6)
+		(drill oval 0.500025 1.199975)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "870727db-15f9-43af-a9f8-7ad8389ad1ee")
+	)
+	(pad "4" thru_hole oval
+		(at 5.799975 2.900051)
+		(size 0.8 1.6)
+		(drill oval 0.500025 1.199975)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c277512-813b-4385-b6e3-3ffd0fe29d53")
+	)
+	(pad "A5" smd rect
+		(at -0.5 -2.900051)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "532da4cd-3514-4f42-8eb9-dec04ff547e8")
+	)
+	(pad "A9" smd rect
+		(at 1.520066 -2.900051)
+		(size 0.759995 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "037fbd75-4747-40ef-8366-aef4b0ab578f")
+	)
+	(pad "A12" smd rect
+		(at 2.750191 -2.900051)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8fbca782-f6ac-4801-aa0f-84d919012f70")
+	)
+	(pad "B5" smd rect
+		(at 0.5 -2.900051)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d2f9b420-9e9c-49bd-8ca9-5d41036fda50")
+	)
+	(pad "B9" smd rect
+		(at -1.519812 -2.900051)
+		(size 0.759995 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bfb27ef1-6f43-4c0d-b479-430a8022bca6")
+	)
+	(pad "B12" smd rect
+		(at -2.749936 -2.900051)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24ef23b2-b57e-4587-b829-c71c51397ffc")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Connectors.pretty/3dmodels/USB-SMD_GT-USB-7040B.step"
+		(offset
+			(xyz 0 -1.4 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

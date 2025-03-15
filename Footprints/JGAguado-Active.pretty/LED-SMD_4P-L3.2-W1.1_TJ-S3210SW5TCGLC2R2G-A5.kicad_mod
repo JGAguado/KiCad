@@ -1,0 +1,175 @@
+(footprint "LED-SMD_4P-L3.2-W1.1_TJ-S3210SW5TCGLC2R2G-A5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED-SMD_4P-L3.2-W1.1_TJ-S3210SW5TCGLC2R2G-A5 footprint")
+	(tags "LED-SMD_4P-L3.2-W1.1_TJ-S3210SW5TCGLC2R2G-A5 footprint C601678")
+	(property "Reference" "REF**"
+		(at 0 -2.896241 0)
+		(layer "F.SilkS")
+		(uuid "f7e6cd0b-c8e4-4254-ad7c-d5860c93ac51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L3.2-W1.1_TJ-S3210SW5TCGLC2R2G-A5"
+		(at 0 2.215748 0)
+		(layer "F.Fab")
+		(uuid "98500d4a-714f-4c9e-83bb-444222ab70ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED-SMD_4P-L3.2-W1.1_TJ-S3210SW5TCGLC2R2G-A5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ac41f1c-8f0a-4894-b6b4-21802ecd1930")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fc0dc63-e5a5-4606-99d7-93941bf99475")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d193974-4e12-4997-b8a2-28ef6d0b87db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.015824 -0.896241)
+		(end -1.015824 -0.845949)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bed83066-595c-43b7-971b-02e93926bf5a")
+	)
+	(fp_line
+		(start 0.454864 -0.585293)
+		(end 0.824867 -0.585293)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b210a570-c61a-4982-a330-e7011d643812")
+	)
+	(fp_line
+		(start 0.639853 -0.785293)
+		(end 0.639853 -0.405309)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c2b6f30-b6c0-4ed4-9bbc-04d1def36596")
+	)
+	(fp_line
+		(start 1.015519 -0.895961)
+		(end 1.015519 -0.845949)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c958cb9-8814-4991-b02f-11fb8a9a5f67")
+	)
+	(fp_arc
+		(start -1.015824 -0.896241)
+		(mid -0.000064 -1.534695)
+		(end 1.015519 -0.89596)
+		(stroke
+			(width 0.151994)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57ea84b0-6afa-4010-90fe-b01d048b763f")
+	)
+	(fp_circle
+		(center 1.599848 -1.44732)
+		(end 1.629845 -1.44732)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2b3b2243-9f46-4561-b964-774aa33a5f31")
+	)
+	(fp_text user "REF**"
+		(at 0 4.215748 0)
+		(layer "F.Fab")
+		(uuid "27b503ea-21f6-4793-951a-d4428d6bacaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.480061 -0.215748 180)
+		(size 0.950013 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "13c3ebe2-2b5e-4156-a232-6e6896bb2368")
+	)
+	(pad "2" smd rect
+		(at 0.415037 0.215748 180)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4a6bb95a-7d7c-4e3a-bc2f-d9d1db7ece8a")
+	)
+	(pad "3" smd rect
+		(at -0.415037 0.215748 180)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0cd2733b-391f-484f-9459-a9a167d1c569")
+	)
+	(pad "4" smd rect
+		(at -1.480061 -0.215748 180)
+		(size 0.950013 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c18bff92-5714-4a52-8b7b-bf07e2f92613")
+	)
+	(model "C:\\Users\\Jon\\Andromeda\\Proyectos\\Repositorios\\KiCad/Footprints\\JGAguado-Active.pretty/3dmodels/LED-SMD_4P-L3.2-W1.1_TJ-S3210SW5TCGLC2R2G-A5.step"
+		(offset
+			(xyz -0.000152 0.207288 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

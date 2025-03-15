@@ -162,15 +162,15 @@
 		(remove_unused_layers no)
 		(uuid "b9e43149-e785-4651-b8c2-3f381fdc3656")
 	)
-	(model "${JON_FOOTPRINT_DIR}/JGAguado-Passive.pretty/3dmodels/MOV-14D511K.STEP"
+	(model "${JON_FOOTPRINT_DIR}/JGAguado-Passive.pretty/3dmodels/RES-TH_L13.0-W6.7-P7.50-D0.7-S5.30.igs"
 		(offset
-			(xyz 0 0 4.5)
+			(xyz 0 0 7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 25)
+			(xyz 0 0 0)
 		)
 	)
 )
